@@ -1,0 +1,67 @@
+:root {
+  --header-color: #faf6f6; /* Default header color */
+  --header-background-color: #bc1d1d; /* Default header background color */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: var(--header-color); /* Apply custom header color */
+  background-color: var(--header-background-color); /* Apply custom header background color */
+  padding: 10px; /* Add padding to create space around the header */
+}
+
+.invitation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fdfdfd; /* Light gray background */
+  padding: 20px;
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  width: 250px;
+  height: auto;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.response {
+  margin-top: 20px;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #e70a0a; /* Red button */
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #ff4d4d; /* Lighter red on hover */
+}
+
+#comment {
+  margin-top: 10px;
+  font-style: italic;
+}
